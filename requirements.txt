@@ -1,0 +1,5 @@
+agno
+streamlit
+openai
+elevenlabs
+firecrawl-py
