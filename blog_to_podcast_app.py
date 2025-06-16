@@ -1,4 +1,5 @@
 import os
+import requests
 from uuid import uuid4 # generate a random Universal Unique Identifier (UUID)
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat

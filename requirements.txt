@@ -4,3 +4,4 @@ openai
 elevenlabs
 Requests
 firecrawl-py
+dotenv
