@@ -32,7 +32,7 @@ if generate_button:
         st.warning("Please enter Blog URL first.")
     else:
         os.environ["OPENAI_API_KEY"] = openai_api_key
-        os.environ["ELEVENLABS_API_KEY"] = elevenlabs_api_key
+        os.environ["XI_API_KEY"] = elevenlabs_api_key
         os.environ["FIRECRAWL_API_key"] = firecrawl_api_key
 
         with st.spinner("Processing .....Scrapping Blog, Summarizing and generating podcast 🎶"):
@@ -43,7 +43,7 @@ if generate_button:
                     model = OpenAIChat(id="gpt-4o"),
                     tools=[
                         ElevenLabsTools(
-                            voice_id="JBFqnCBsd6RMkjVDRZzb",
+                            voice_id="1SM7GgM6IMuvQlz2BwM3", 
                             model_id = "eleven_multilingual_v2",
                             target_directory="audio_generations",
                         ),
