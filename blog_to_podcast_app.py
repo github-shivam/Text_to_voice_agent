@@ -14,9 +14,9 @@ st.title("📰 ➡ 🎤 Blog to Podcast Agent")
 
 st.sidebar.header("🔑 API Keys")
 
-openai_api_key = st.sidebar.text_input("openai_api_key]", type="password")
-elevenlabs_api_key = st.sidebar.text_input("elevenlabs_api_key", type="password")
-firecrawl_api_key = st.sidebar.text_input("firecrawl_api_key", type="password")
+openai_api_key = st.sidebar.text_input("Openai_api_key", type="password")
+elevenlabs_api_key = st.sidebar.text_input("ElevenLabs_api_key", type="password")
+firecrawl_api_key = st.sidebar.text_input("Firecrawl_api_key", type="password")
 
 keys_provided = all([openai_api_key, elevenlabs_api_key, firecrawl_api_key])
 
